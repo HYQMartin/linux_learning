@@ -1,0 +1,17 @@
+建新用户
+	useradd -d /home/huangyeqin
+
+yum install apt-get
+linux 一般分两个系列 Redhat系列：Redhat、Centos、Fedora；Debian系列：Debian、Ubuntu
+Redhat系列
+	常见的安装包格式rpm，安装命令rpm -参数 （预先编译好的）
+	包管理工具 yum
+	支持tar包
+Debian系列
+	常见的包格式deb包，安装命令dpkg -参数
+	包管理工具 apt-get
+	支持tar包
+
+tar包一般包括编译脚本，开源，安装三部曲：./configure，make，make install
+
+具体见链接：http://blog.csdn.net/mathewsking/article/details/8211273
